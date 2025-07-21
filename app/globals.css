@@ -113,7 +113,7 @@ html,body {
     @apply uppercase text-9xl sm:right-10 max-sm:text-8xl md:text-9xl lg:text-[9rem] ;
   }
   .animated-titleheader {
-    @apply flex flex-col gap-1 sm:text-8xl max-sm:text-7xl md:text-[7rem] lg:text-[9rem] uppercase leading-[1.5] text-black max-sm:px-4 sm:px-4 px-12;
+    @apply flex flex-col gap-1 sm:text-6xl max-sm:text-5xl md:text-[5rem] lg:text-[7rem] uppercase leading-[1.5] text-white max-sm:px-4 sm:px-4 px-12;
   }
 
   .animated-title {
