@@ -42,7 +42,7 @@ export default function Home() {
   // Define the sliders data here:
   const sliders = [
     {
-      slug: "gg",
+      slug: "Rize",
       images: [
        "/images/1/Coffee.jpg",
       "/images/1/Brown.jpg",
@@ -50,15 +50,15 @@ export default function Home() {
         ],
     },
     {
-      slug: "aa",
+      slug: "Diamond",
       images: [
-       "/images/2/Black.jpg",
-      "/images/2/Kaki.jpg",
-      "/images/2/White.jpg",
+"/images/6/Rainbow.jpg",
+        "/images/6/White.jpg",
+      "/images/6/Rainbow.jpg",
       ],
     },
     {
-      slug: "ab",
+      slug: "straw",
       images: [
         "/images/4/Black.jpg",
       "/images/4/Brown.jpg",
