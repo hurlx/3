@@ -11,6 +11,11 @@
         "/images/1/Coffee.jpg",
         "/images/1/Brown.jpg",
         "/images/1/Kaki.jpg",
+        "/images/1/(1).jpg",
+        "/images/1/(2).jpg",
+        "/images/1/(3).jpg",
+        "/images/1/(4).jpg",
+        "/images/1/(5).jpg",
       ],
       colors: [
         { name: "Coffee", hex: "#6F4E37" },
@@ -30,7 +35,10 @@
         "/images/2/Black.jpg",
         "/images/2/Kaki.jpg",
         "/images/2/White.jpg",
-        "/images/2/Phosphorescent.jpg"
+        "/images/2/Phosphorescent.jpg",
+        "/images/2/(1).jpg",
+        "/images/2/(2).jpg",
+        "/images/3/(3).jpg",
       ],
       colors: [
         { name: "White", hex: "#ffffff" },
@@ -51,7 +59,9 @@
         "/images/4/Black.jpg",
         "/images/4/Brown.jpg",
         "/images/4/White.jpg",
-        "/images/4/Yellow.jpg"
+        "/images/4/Yellow.jpg",
+        "/images/4/1.jpg",
+        "/images/4/2.jpg",
       ],
       colors: [
         { name: "Snow White", hex: "#ffffff" },
