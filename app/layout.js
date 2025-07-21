@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "RiZe",
+  icons: {
+    icon: "/favicon.ico",
+  },
   description:
     "Discover stylish and high-quality bags crafted with care. Perfect for daily use, travel, or gifts — designed to suit every personality.",
     
