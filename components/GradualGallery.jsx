@@ -37,7 +37,7 @@ export default function GradualGallery() {
 
   // Define your image links and slugs here
   const images = [
-    { src: "/images/7/Black.jpg", slug: "Cat" },
+    { src: "/images/8/22.jpg", slug: "Canvas" },
     { src: "/images/2/Kaki.jpg", slug: "Wavea" },
     { src: "/images/5/Brawn.jpg", slug: "Shell" },
   ];
