@@ -90,7 +90,7 @@ export default function Home() {
   className="cursor-pointer relative"
 >
   {isPending && clicked === index && (
-    <div className="absolute inset-0 z-20 bg-white/70 flex items-center justify-center rounded-xl">
+    <div className="absolute w-full h-[290px] z-20 bg-white/70 flex items-center justify-center rounded-xl">
       <Spinner />
     </div>
   )}
