@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 const cardsData = [
   {
@@ -64,7 +65,7 @@ export default function Cards() {
                    }}>
                 {/* Front */}
                 <div className="flip-card-front absolute w-full h-full backface-hidden">
-                  <img
+                  <Image
                     src={card.frontImage}
                     alt={`Front of Card ${card.id}`}
                     draggable="false"
@@ -74,7 +75,7 @@ export default function Cards() {
 
                 {/* Back */}
                 <div className="flip-card-back absolute w-full h-full backface-hidden transform rotate-y-180">
-                  <img
+                  <Image
                     src={card.backImage}
                     alt={`Back of Card ${card.id}`}
                     draggable="false"
