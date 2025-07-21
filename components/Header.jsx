@@ -5,9 +5,9 @@ import gsap from "gsap";
 import AnimatedTitle1 from "./AnimatedTitle1";
 
 const slides = [
-	{ image: "/images/8/1.jpg", title: "تصاميم تُكمل إطلالتك" },
-	{ image: "/images/8/2.jpg", title: "أناقة تُرافقك أينما كنت" },
-	{ image: "/images/8/3.jpg", title: "اختر حقيبتك المفضلة" },
+	{ image: "/images/8/1.jpg", title: "أناقة تبدأ من حقيبتك" },
+	{ image: "/images/8/2.jpg", title: "حقائب تحاكي أسلوبك الخاص" },
+	{ image: "/images/8/3.jpg", title: "موضة اليوم بين يديك" },
 ];
 
 const Header = () => {
@@ -78,7 +78,7 @@ const Header = () => {
 						<h1
 							ref={textRef}
 							dir="rtl"
-							className="text-4xl font-bold text-black drop-shadow-lg"
+							className="text-4xl font-bold text-white drop-shadow-lg"
 						>
 							<AnimatedTitle1 title={slides[currentSlide].title} isArabic />
 						</h1>
