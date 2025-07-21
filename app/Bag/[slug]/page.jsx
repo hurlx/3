@@ -1,6 +1,7 @@
 "use client";
 import { use, useState, useEffect } from "react";
 import { products } from "@/app/Lib/data";
+import Image from "next/image";
 
 export default function BagDetailPage(props) {
   // 1. unwrap params promise
@@ -50,7 +51,7 @@ export default function BagDetailPage(props) {
       <div className="max-w-4xl mx-auto flex flex-col items-center">
         {/* — Main Image Slider */}
         <div className="relative w-[500px] max-w-full rounded-xl mb-6 shadow-md">
-          <img
+          <Image
             src={selectedImage}
             alt="صورة الحقيبة"
             className="w-full h-auto object-cover rounded-xl transition duration-300"
@@ -111,7 +112,7 @@ export default function BagDetailPage(props) {
           className="relative mt-10 inline-block group"
         >
           <div className="flex items-center gap-3 px-6 py-3 rounded-full bg-[#25D366] text-white font-bold text-lg shadow-lg transition-all duration-300 ease-in-out group-hover:bg-[#1ebe57] group-hover:shadow-2xl group-hover:scale-105 active:scale-95 overflow-hidden">
-            <img
+            <Image
               src="/icons/whatsapp.svg"
               alt="WhatsApp"
               className="w-6 h-6"
