@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function GlassMorphCard({ product }) {
   const [hovered, setHovered] = useState(false);
@@ -16,7 +17,7 @@ export default function GlassMorphCard({ product }) {
         onMouseLeave={() => setHovered(false)}
       >
         {/* Default */}
-        <img
+        <Image
           src={product.image}
           alt={product.name}
           draggable="false"
@@ -25,7 +26,7 @@ export default function GlassMorphCard({ product }) {
           }`}
         />
         {/* Hover */}
-        <img
+        <Image
           src={product.hoverImage}
           alt={`${product.name} alternate view`}
           draggable="false"
