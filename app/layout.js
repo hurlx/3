@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import LenisWrapper from "@/components/LenisWrapper";
 import Link from "next/link";
 import BackButton from "@/components/BackButton";
+import Image from "next/image";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,7 +30,7 @@ export default function RootLayout({ children }) {
       >
         <div className="absolute top-0 left-0 z-[9999] pointer-events-auto w-fit mx-auto right-0">
   <Link href="/">
-    <img
+    <Image
       src="/images/Hight Qulity.png"
       alt="Background Logo"
       className="max-w-[100px] mt-1 object-contain object-top cursor-pointer"
