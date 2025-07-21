@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useTransition, useState } from "react";
 import AnimatedTitle from "./AnimatedTitle";
+import Image from "next/image";
 
 const Spinner = () => (
   <div className="flex items-center justify-center w-full h-full">
@@ -69,7 +70,7 @@ export default function GradualGallery() {
                 <Spinner />
               </div>
             )}
-            <img
+            <Image
               src={src}
               alt={`Bag view ${index + 1}`}
               className="w-full h-full object-cover rounded-xl z-10"
