@@ -6,17 +6,17 @@ const cardsData = [
   {
     id: 1,
     frontImage: "/images/8/11.jpg",
-    backImage: "/images/8/22.jpg",
+    backImage: "/images/1/Brown.jpg",
   },
   {
     id: 2,
     frontImage: "/images/8/11.jpg",
-    backImage: "/images/8/22.jpg",
+    backImage: "/images/1/Brown.jpg",
   },
   {
     id: 3,
     frontImage: "/images/8/11.jpg",
-    backImage: "/images/8/22.jpg",
+    backImage: "/images/1/Brown.jpg",
   },
 ];
 
@@ -33,7 +33,7 @@ export default function Cards() {
 
   const handleClick = () => {
     setLoading(true);
-    router.push("/Bag");
+    router.push("/Bag/Rize");
   };
 
   return (
