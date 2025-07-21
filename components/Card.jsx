@@ -5,18 +5,18 @@ import { useRouter } from "next/navigation";
 const cardsData = [
   {
     id: 1,
-    frontImage: "/images/4/Black.jpg",
-    backImage: "/images/4/White.jpg",
+    frontImage: "/images/8/11.jpg",
+    backImage: "/images/8/22.jpg",
   },
   {
     id: 2,
-    frontImage: "/images/2/Kaki.jpg",
-    backImage: "/images/2/Phosphorescent.jpg",
+    frontImage: "/images/8/11.jpg",
+    backImage: "/images/8/22.jpg",
   },
   {
     id: 3,
-    frontImage: "/images/1/Kaki.jpg",
-    backImage: "/images/1/Coffee.jpg",
+    frontImage: "/images/8/11.jpg",
+    backImage: "/images/8/22.jpg",
   },
 ];
 
