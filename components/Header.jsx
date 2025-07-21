@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import gsap from "gsap";
 import AnimatedTitle1 from "./AnimatedTitle1";
+import Image from "next/image";
 
 const slides = [
 	{ image: "/images/8/1.jpg", title: "أناقة تبدأ من حقيبتك" },
@@ -62,7 +63,7 @@ const Header = () => {
 				<div className="relative w-full h-full max-h-[100vh] max-w-[100vw] overflow-hidden rounded-xl">
 					<div className="absolute inset-0 z-0">
 						{slides.map((slide, index) => (
-							<img
+							<Image
 								key={index}
 								ref={index === currentSlide ? imageRef : null}
 								src={slide.image}
