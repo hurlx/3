@@ -1,5 +1,6 @@
 import React from "react";
 import AnimatedTitle from "./AnimatedTitle";
+import Image from "next/image";
 
 const Item = () => {
 	// Array of images for the first slider
@@ -55,7 +56,7 @@ const Item = () => {
 								className="item"
 								style={{ "--position": `${i + 1}` }}
 							>
-								<img src={src} alt={`slider1-img-${i}`} draggable="false" />
+								<Image src={src} alt={`slider1-img-${i}`} draggable="false" />
 							</div>
 						))}
 					</div>
@@ -77,7 +78,7 @@ const Item = () => {
 								className="item rounded-xl"
 								style={{ "--position": `${i + 1}` }}
 							>
-								<img src={src} alt={`slider2-img-${i}`} draggable="false" />
+								<Image src={src} alt={`slider2-img-${i}`} draggable="false" />
 							</div>
 						))}
 					</div>
