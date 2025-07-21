@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased select-none`}
       >
-        <div className="absolute top-0 left-0 z-[9999] opacity-70 pointer-events-auto w-fit mx-auto right-0">
+        <div className="absolute top-0 left-0 z-[9999] pointer-events-auto w-fit mx-auto right-0">
   <Link href="/">
     <img
       src="/images/Hight Qulity.png"
