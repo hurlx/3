@@ -15,7 +15,7 @@
       colors: [
         { name: "Coffee", hex: "#6F4E37" },
         { name: "Brown", hex: "#964B00" },
-        { name: "Kaki", hex: "#F0E68C" }
+        { name: "Khaki", hex: "#b0998b" }
       ],
     },
     {
@@ -34,9 +34,9 @@
       ],
       colors: [
         { name: "White", hex: "#ffffff" },
-        { name: "Black", hex: "#000000" },
-        { name: "Wheat", hex: "#f5deb3" },
-        { name: "Phosphorescent", hex: "#90EE90" }
+        { name: "Jet Black", hex: "#000000" },
+        { name: "Khaki", hex: "#b0998b" },
+        { name: "Moss Green", hex: "#90EE90" }
       ],
     },
     {
@@ -54,10 +54,10 @@
         "/images/4/Yellow.jpg"
       ],
       colors: [
-        { name: "White", hex: "#ffffff" },
-        { name: "Black", hex: "#000000" },
-        { name: "Brown", hex: "#964B00" },
-        { name: "Yellow", hex: "#FFFF00" }
+        { name: "Snow White", hex: "#ffffff" },
+        { name: "Jet Black", hex: "#000000" },
+        { name: "Chestnut", hex: "#964B00" },
+        { name: "Lemon", hex: "#FFFF00" }
       ],
     },
     {
@@ -75,7 +75,7 @@
         "/images/5/2.jpg"
       ],
       colors: [
-        { name: "White", hex: "#ffffff" },
+        { name: "Chestnut", hex: "#964B00" },
         { name: "Black", hex: "#000000" },
       ],
     },
@@ -96,7 +96,7 @@
       ],
       colors: [
         { name: "White", hex: "#ffffff" },
-        { name: "Rainbow", hex: "#000000" },
+        { name: "Rainbow", hex: "#DDA0DD" },
       ],
     },
     {
@@ -120,12 +120,12 @@
         "/images/7/Yellow.jpg",
       ],
       colors: [
-        { name: "Kaki", hex: "#F0E68C" },
-        { name: "Black", hex: "#000000" },
-        { name: "Blue", hex: "#0000FF" },
-        { name: "Green", hex: "#008000" },
-        { name: "Pink", hex: "#FFC0CB" },
-        { name: "Yellow", hex: "#FFFF00" },
+        { name: "Khaki", hex: "#b0998b" },
+        { name: "Jet Black", hex: "#000000" },
+        { name: "Royal Blue", hex: "#0000FF" },
+        { name: "Moss Green", hex: "#008000" },
+        { name: "Rose Pink", hex: "#FFC0CB" },
+        { name: "Lemon", hex: "#FFFF00" },
       ],
     },
     {
@@ -143,10 +143,10 @@
         "/images/9/Red.jpg"
       ],
       colors: [
-        { name: "Brown", hex: "#964B00" },
-        { name: "Black", hex: "#000000" },
-        { name: "Blue", hex: "#0000FF" },
-        { name: "Red", hex: "#FF0000" },
+        { name: "Chestnut", hex: "#964B00" },
+        { name: "Onyx", hex: "#000000" },
+        { name: "Prussian Blue", hex: "#0000FF" },
+        { name: "Burgundy", hex: "#FF0000" },
       ],
     },
   ];
