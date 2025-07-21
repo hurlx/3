@@ -19,18 +19,18 @@ const navLinks = [
 
 const abilities = [
   {
-    title: "Lorem, ipsum dolor.",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, quibusdam maxime? Perferendis tempora ratione quas minus cumque facere? Et, nesciunt.",
+    title: "⭐⭐⭐⭐⭐",
+    desc: "الطلب وصلني بسرعة والتغليف كتير مرتب الشنتة طالعة أحلى من الصورة بكتير عنجد مبسوطة وناوية أطلب كمان",
     id: "1",
   },
   {
-    title: "Lorem, ipsum dolor.",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, quibusdam maxime? Perferendis tempora ratione quas minus cumque facere? Et, nesciunt.",
+    title: "⭐⭐⭐⭐",
+    desc: "الشنتاية فخمة والسعر كويس تاخرت بالشحن شوي بس مو مشكلة المهم الجودة بتجنن وبنصح فيه",
     id: "2",
   },
   {
-    title: "Lorem, ipsum dolor.",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, quibusdam maxime? Perferendis tempora ratione quas minus cumque facere? Et, nesciunt.",
+    title: "⭐⭐⭐⭐⭐",
+    desc: "طلبت حقيبة وطلعت بتجننن الخامات ممتازة واللون متل الصور تماما والتوصيل كتير سريع أكيد مو آخر مرة بطلب منكم",
     id: "3",
   },
 ];
