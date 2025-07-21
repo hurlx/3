@@ -35,7 +35,6 @@ export default function GlassMorphCard({ product }) {
         />
       </Link>
       
-      {/* 2) DETAILS PANEL UNDERNEATH */}
       <div className="bg-white p-5 flex-1 flex flex-col justify-between">
         <div>
           <h3 className="text-lg font-semibold mb-2 text-gray-800">
