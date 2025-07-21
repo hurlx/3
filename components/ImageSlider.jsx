@@ -33,13 +33,13 @@ const ShowcaseStackSlider = ({ images }) => {
   }, [order]);
 
   return (
-    <div className="relative w-[400px] h-[300px] mx-auto mb-10">
+    <div className="relative w-[300px] h-[300px] mx-auto mb-10">
       {order.map((imgIndex, i) => (
         <img
           key={imgIndex}
           ref={refs[i]}
           src={images[imgIndex]}
-          className="absolute w-full h-full object-cover rounded-xl shadow-xl"
+          className="absolute w-full h-full object-contain rounded-xl shadow-xl"
           style={{
             zIndex: 3 - i,
             transform: `scale(${1 - i * 0.05})`,
