@@ -1,6 +1,6 @@
   export const products = [
     {
-      name: "Rize Bag",
+      name: "حقيبة ريزيه",
       shortDescription: "حقيبة يد أنيقة بنقشة الفهد ولمسات جلدية بنية، مزودة بسلسلة ذهبية تضيف لمسة فاخرة.",
       image: "/images/1/Kaki.jpg",
       hoverImage: "/images/1/Coffee.jpg",
@@ -18,13 +18,13 @@
         "/images/1/(5).jpg",
       ],
       colors: [
-        { name: "Coffee", hex: "#6F4E37" },
-        { name: "Brown", hex: "#964B00" },
-        { name: "Khaki", hex: "#b0998b" }
+        { name: "قهوة", hex: "#6F4E37" },
+        { name: "بني", hex: "#964B00" },
+        { name: "رملي", hex: "#b0998b" }
       ],
     },
     {
-      name: "Wavea Bag",
+      name: "حقيبة الامواج",
       shortDescription: "حقيبة يد جلدية أنيقة ، بتصميم مموّج يدوي ومقبض علوي مجعد، مزودة بسلسلة ذهبية ووسم فاخر.",
       image: "/images/2/Kaki.jpg",
       hoverImage: "/images/2/White.jpg",
@@ -38,17 +38,17 @@
         "/images/2/Phosphorescent.jpg",
         "/images/2/(1).jpg",
         "/images/2/(2).jpg",
-        "/images/2/(3).jpg",
+        "/images/3/(3).jpg",
       ],
       colors: [
-        { name: "White", hex: "#ffffff" },
-        { name: "Jet Black", hex: "#000000" },
-        { name: "Khaki", hex: "#b0998b" },
-        { name: "Moss Green", hex: "#90EE90" }
+        { name: "ابيض", hex: "#ffffff" },
+        { name: "اسود", hex: "#000000" },
+        { name: "رملي", hex: "#b0998b" },
+        { name: "فستقي", hex: "#90EE90" }
       ],
     },
     {
-      name: "straw Bag",
+      name: "حقيبة القش",
       shortDescription: "حقيبة كروس أنيقة مصنوعة من القش الطبيعي مع غطاء جلدي ، بتفاصيل مضفّرة ولمسة عصرية من الشرّابات والحبل القطني.",
       image: "/images/4/Black.jpg",
       hoverImage: "/images/4/White.jpg",
@@ -64,14 +64,14 @@
         "/images/4/2.jpg",
       ],
       colors: [
-        { name: "Snow White", hex: "#ffffff" },
-        { name: "Jet Black", hex: "#000000" },
-        { name: "Chestnut", hex: "#964B00" },
-        { name: "Lemon", hex: "#FFFF00" }
+        { name: "ابيض", hex: "#ffffff" },
+        { name: "اسود", hex: "#000000" },
+        { name: "كستنائي", hex: "#964B00" },
+        { name: "ليموني", hex: "#FFFF00" }
       ],
     },
     {
-      name: "Shell Bag",
+      name: "حقيبة الصدفة",
       shortDescription: "حقيبة جلدية عريقة , مصنوعة بالكامل من الجلد مع بعض اللمسات الذهبية التي تعطي طابع فخم",
       image: "/images/5/Black.jpg",
       hoverImage: "/images/5/Brawn.jpg",
@@ -85,12 +85,12 @@
         "/images/5/2.jpg"
       ],
       colors: [
-        { name: "Chestnut", hex: "#964B00" },
-        { name: "Black", hex: "#000000" },
+        { name: "كستنائي", hex: "#964B00" },
+        { name: "اسود", hex: "#000000" },
       ],
     },
     {
-      name: "Diamond Bag",
+      name: "حقيبة الالماس",
       shortDescription: "حقيبة الألماس المميزة , ذات طابع الماسي يحتوي الوان الطيف السبع , وتحتوي على سلسلة تعطي طابع كلاسيكي",
       image: "/images/6/Rainbow.jpg",
       hoverImage: "/images/6/White.jpg",
@@ -105,12 +105,12 @@
         "/images/6/3.jpg"
       ],
       colors: [
-        { name: "White", hex: "#ffffff" },
-        { name: "Rainbow", hex: "#DDA0DD" },
+        { name: "اسود", hex: "#ffffff" },
+        { name: "ملون", hex: "#DDA0DD" },
       ],
     },
     {
-      name: "Gold Cat Bag",
+      name: "حقيبة القطة الذهبية",
       shortDescription: "حقيبة القطة الذهبية بتصميم عصري بسيط , تحتوي على حزام مزخرف , وتفاصيل ذهبية تعطي طابع فخم",
       image: "/images/7/Black.jpg",
       hoverImage: "/images/7/Pink.jpg",
@@ -130,16 +130,16 @@
         "/images/7/Yellow.jpg",
       ],
       colors: [
-        { name: "Khaki", hex: "#b0998b" },
-        { name: "Jet Black", hex: "#000000" },
-        { name: "Royal Blue", hex: "#0000FF" },
-        { name: "Moss Green", hex: "#008000" },
-        { name: "Rose Pink", hex: "#FFC0CB" },
-        { name: "Lemon", hex: "#FFFF00" },
+        { name: "رملي", hex: "#b0998b" },
+        { name: "اسود", hex: "#000000" },
+        { name: "ازرق ملكي", hex: "#0000FF" },
+        { name: "فستقي", hex: "#008000" },
+        { name: "وردي", hex: "#FFC0CB" },
+        { name: "ليموني", hex: "#FFFF00" },
       ],
     },
     {
-      name: "Canvas Bucket Bag",
+      name: "حقيبة دلو القماش",
       shortDescription: "حقيبة القماش المقلم , قماش مخطط ذات ملمس خشن , بتصميم راقي , مع لمسات ذهبية تعطي طابع الفخامة",
       image: "/images/5/Black.jpg",
       hoverImage: "/images/5/Brawn.jpg",
@@ -153,10 +153,10 @@
         "/images/9/Red.jpg"
       ],
       colors: [
-        { name: "Chestnut", hex: "#964B00" },
-        { name: "Onyx", hex: "#000000" },
-        { name: "Prussian Blue", hex: "#0000FF" },
-        { name: "Burgundy", hex: "#FF0000" },
+        { name: "كستنائي", hex: "#964B00" },
+        { name: "اسود", hex: "#000000" },
+        { name: "ازرق ملكي", hex: "#0000FF" },
+        { name: "عنابي", hex: "#FF0000" },
       ],
     },
   ];
