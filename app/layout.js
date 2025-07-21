@@ -20,6 +20,9 @@ export const metadata = {
   title: "RiZe",
   description:
     "Discover stylish and high-quality bags crafted with care. Perfect for daily use, travel, or gifts — designed to suit every personality.",
+    icons: {
+    icon: "/favicon.ico", // or .png
+  },
 };
 
 export default function RootLayout({ children }) {
