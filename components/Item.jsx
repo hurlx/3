@@ -4,28 +4,28 @@ import AnimatedTitle from "./AnimatedTitle";
 const Item = () => {
 	// Array of images for the first slider
 	const images1 = [
-		"/images/4/Black.jpg",
-		"/images/4/Brown.jpg",
-		"/images/4/White.jpg",
-		"/images/2/Black.jpg",
-		"/images/2/Kaki.jpg",
+		"/images/6/Rainbow.jpg",
+		"/images/7/Black.jpg",
+		"/images/5/Brawn.jpg",
+		"/images/4/Yellow.jpg",
 		"/images/2/White.jpg",
-		"/images/1/Coffee.jpg",
-		"/images/1/Brown.jpg",
 		"/images/1/Kaki.jpg",
+"/images/9/Black.jpg",
+		"/images/7/Black.jpg",
+		"/images/5/Brawn.jpg",
 	];
 
 	// Array of images for the second slider
 	const images2 = [
-		"/images/4/Black.jpg",
-		"/images/4/Brown.jpg",
-		"/images/4/White.jpg",
-		"/images/2/Black.jpg",
-		"/images/2/Kaki.jpg",
+		"/images/6/Rainbow.jpg",
+		"/images/7/Black.jpg",
+		"/images/5/Brawn.jpg",
+		"/images/4/Yellow.jpg",
 		"/images/2/White.jpg",
-		"/images/1/Coffee.jpg",
-		"/images/1/Brown.jpg",
 		"/images/1/Kaki.jpg",
+"/images/9/Black.jpg",
+		"/images/7/Black.jpg",
+		"/images/5/Brawn.jpg",
 	];
 
 	return (
