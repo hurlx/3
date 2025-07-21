@@ -36,9 +36,9 @@ export default function GradualGallery() {
 
   // Define your image links and slugs here
   const images = [
-    { src: "/images/1/Kaki.jpg", slug: "gg" },
-    { src: "/images/2/White.jpg", slug: "aa" },
-    { src: "/images/4/White.jpg", slug: "ab" },
+    { src: "/images/7/Black.jpg", slug: "Cat" },
+    { src: "/images/2/Kaki.jpg", slug: "Wavea" },
+    { src: "/images/5/Brawn.jpg", slug: "Shell" },
   ];
 
   const handleClick = (slug, index) => {
