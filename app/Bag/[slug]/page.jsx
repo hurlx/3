@@ -73,7 +73,6 @@ export default function BagDetailPage(props) {
         <h1 className="text-3xl font-bold mb-4">{bag.name}</h1>
         <p className="text-lg text-gray-700 mb-2">{bag.shortDescription}</p>
         <p className="text-xl font-semibold">${bag.price}</p>
-        <p className="text-sm text-gray-500 mt-2">التصنيف: {bag.tag}</p>
 
         {/* — Color Picker */}
         <div className="mt-6 flex flex-col items-center w-full">
