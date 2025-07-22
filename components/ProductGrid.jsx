@@ -72,6 +72,36 @@ const products = [
     id: "7",
     slug: 'Canvas'
   },
+  {
+    name: "الحقيبة الملكية",
+    shortDescription: "حقيبة جلدية , تحتوي نقشة ملكية مع لمسات ذهبية تعطي طابع فخم و راقي",
+      image: "/images/10/Blue.jpg",
+      hoverImage: "/images/10/Pink.jpg",
+    price: 17,
+    tag: "",
+    id: "8",
+    slug: 'Royal'
+  },
+  {
+    name: "حقيبة اللؤلؤ",
+    shortDescription: "حقيبة اللؤلؤ المميزة , تحتوي على مقبض من اللؤلؤ وسلسلة فضية تعطي طابع كلاسيكي",
+      image: "/images/11/Pink.jpg",
+      hoverImage: "/images/11/Silver.jpg",
+    price: 17,
+    tag: "",
+    id: "9",
+    slug: 'Pearl'
+  },
+  {
+    name: "حقيبة القمر",
+    shortDescription: "حقيبة القمر الجلدية , تاتي بحزام جلدي فخم وحزام قماشي عريض مع بعض التفاصيل الذهبية",
+      image: "/images/12/white.jpg",
+      hoverImage: "/images/12/wheat.jpg",
+    price: 17,
+    tag: "",
+    id: "10",
+    slug: 'Moon'
+  },
 ];
 
 export default function ProductGrid() {
