@@ -8,6 +8,7 @@ import ShowcaseStackSlider from "@/components/ImageSlider";
 import Info from "@/components/Info";
 import Item from "@/components/Item";
 import Test from "@/components/Test";
+import Top from "@/components/Top";
 
 const Spinner = () => (
   <div className="flex items-center justify-center w-full h-full">
@@ -76,6 +77,7 @@ export default function Home() {
 
   return (
     <div className="overflow-hidden select-none">
+      <Top />
       <Header />
       <Info />
       <Item />
