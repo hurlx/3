@@ -11,9 +11,9 @@ const Item = () => {
 		"/images/4/Yellow.jpg",
 		"/images/2/White.jpg",
 		"/images/1/Kaki.jpg",
-"/images/9/Black.jpg",
-		"/images/7/Black.jpg",
-		"/images/5/Brawn.jpg",
+		"/images/9/Black.jpg",
+		"/images/11/Silver.jpg",
+		"/images/10/Pink.jpg",
 	];
 
 	// Array of images for the second slider
@@ -24,9 +24,9 @@ const Item = () => {
 		"/images/4/Yellow.jpg",
 		"/images/2/White.jpg",
 		"/images/1/Kaki.jpg",
-"/images/9/Black.jpg",
-		"/images/7/Black.jpg",
-		"/images/5/Brawn.jpg",
+		"/images/9/Black.jpg",
+		"/images/11/Silver.jpg",
+		"/images/10/Pink.jpg",
 	];
 
 	return (
