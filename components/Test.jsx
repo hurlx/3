@@ -18,9 +18,10 @@ const Test = () => {
 
 			<section className="max-w-4xl mx-auto mb-16">
 				<h2 className="text-3xl font-semibold mb-4">ٱلية العمل</h2>
-				<p className="text-gray-500 leading-relaxed">
-					شحن لكافة المحافظات السورية توصيل مجاني الى باب المنزل داخل مدينة حمص
-				</p>
+				<ul className="list-disc list-inside text-gray-500 space-y-2">
+					<li>شحن مجاني لكافة المحافظات السورية</li>
+					<li>توصيل مجاني الى باب المنزل داخل مدينة حمص</li>
+				</ul>
 			</section>
 
 			<section className="max-w-4xl mx-auto mb-16">
