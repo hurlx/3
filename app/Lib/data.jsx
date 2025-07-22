@@ -105,7 +105,7 @@
         "/images/6/3.jpg"
       ],
       colors: [
-        { name: "اسود", hex: "#ffffff" },
+        { name: "ابيض", hex: "#ffffff" },
         { name: "ملون", hex: "#DDA0DD" },
       ],
     },
@@ -157,6 +157,77 @@
         { name: "اسود", hex: "#000000" },
         { name: "ازرق ملكي", hex: "#0000FF" },
         { name: "عنابي", hex: "#FF0000" },
+      ],
+    },
+    {
+      name: "الحقيبة الملكية",
+      shortDescription: "حقيبة جلدية , تحتوي نقشة ملكية مع لمسات ذهبية تعطي طابع فخم و راقي",
+      image: "/images/10/Blue.jpg",
+      hoverImage: "/images/10/Pink.jpg",
+      price: 17,
+      id: "8",
+      slug: "Royal",
+      images: [
+        "/images/10/Black.jpg",
+        "/images/10/Brown.jpg",
+        "/images/10/Blue.jpg",
+        "/images/10/Khaki.jpg",
+        "/images/10/Pink.jpg"
+      ],
+      colors: [
+        { name: "كستنائي", hex: "#b0998b" },
+        { name: "اسود", hex: "#000000" },
+        { name: "ازرق ملكي", hex: "#0000FF" },
+        { name: "وردي", hex: "#FFC0CB" },
+        { name: "بني", hex: "#964B00" },
+      ],
+    },
+    {
+      name: "حقيبة اللؤلؤ",
+      shortDescription: "حقيبة اللؤلؤ المميزة , تحتوي على مقبض من اللؤلؤ وسلسلة فضية تعطي طابع كلاسيكي",
+      image: "/images/11/Pink.jpg",
+      hoverImage: "/images/11/Silver.jpg",
+      price: 17,
+      id: "9",
+      slug: "Pearl",
+      images: [
+        "/images/11/Lemon.jpg",
+        "/images/11/White.jpg",
+        "/images/11/Blue.jpg",
+        "/images/11/Silver.jpg",
+        "/images/11/Pink.jpg"
+      ],
+      colors: [
+        { name: "ليموني", hex: "#FFFF00" },
+        { name: "ابيض", hex: "#ffffff" },
+        { name: "ازرق ملكي", hex: "#0000FF" },
+        { name: "وردي", hex: "#FFC0CB" },
+        { name: "فضي لامع", hex: "#C0C0C0" },
+      ],
+    },
+    {
+      name: "حقيبة القمر",
+      shortDescription: "حقيبة القمر الجلدية , تاتي بحزام جلدي فخم وحزام قماشي عريض مع بعض التفاصيل الذهبية",
+      image: "/images/12/white.jpg",
+      hoverImage: "/images/12/wheat.jpg",
+      price: 17,
+      id: "10",
+      slug: "Moon",
+      images: [
+        "/images/12/1.jpg",
+        "/images/12/2.jpg",
+        "/images/12/3.jpg",
+        "/images/12/Black.jpg",
+        "/images/12/Brown.jpg",
+        "/images/12/Kaki.jpg",
+        "/images/12/wheat.jpg",
+        "/images/12/white.jpg"
+      ],
+      colors: [
+        { name: "سكري", hex: "#f5deb3" },
+        { name: "رملي", hex: "#b0998b" },
+        { name: "ابيض", hex: "#ffffff" },
+        { name: "بني", hex: "#964B00" },
       ],
     },
   ];
