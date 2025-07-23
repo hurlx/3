@@ -41,6 +41,19 @@ export default function BagDetailPage(props) {
 						className="w-[500px] rounded-xl mb-6 shadow-md transition duration-300"
 					/>
 				)}
+        <div className="flex gap-4 mt-6 overflow-x-auto flex-nowrap max-w-full pb-2 px-2 snap-x snap-mandatory">
+					{bag.images?.map((img, i) => (
+						<img
+							key={i}
+							src={img}
+							alt={`صورة مصغرة-${i}`}
+							onClick={() => setSelectedImage(img)}
+							className={`flex-shrink-0 w-20 h-20 rounded-md object-cover cursor-pointer border-2 ${
+								selectedImage === img ? "border-black" : "border-transparent"
+							}`}
+						/>
+					))}
+				</div>
 <h1 className="text-3xl font-bold mb-4">{bag.name}</h1>
 				<p className="text-lg text-gray-700 mb-2">{bag.shortDescription}</p>
 				<p className="text-xl font-semibold">${bag.price}</p>
@@ -73,19 +86,7 @@ export default function BagDetailPage(props) {
 						))}
 					</div>
 				</div>
-				<div className="flex gap-4 mt-6 overflow-x-auto flex-nowrap max-w-full pb-2 px-2 snap-x snap-mandatory">
-					{bag.images?.map((img, i) => (
-						<img
-							key={i}
-							src={img}
-							alt={`صورة مصغرة-${i}`}
-							onClick={() => setSelectedImage(img)}
-							className={`flex-shrink-0 w-20 h-20 rounded-md object-cover cursor-pointer border-2 ${
-								selectedImage === img ? "border-black" : "border-transparent"
-							}`}
-						/>
-					))}
-				</div>
+				
 
 				<a
 					href={whatsappURL}
