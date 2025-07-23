@@ -73,7 +73,7 @@ export default function BagDetailPage(props) {
 						))}
 					</div>
 				</div>
-				<div className="flex gap-4 mt-6 overflow-x-auto flex-nowrap w-full justify-center pb-2 scrollbar-hide">
+				<div className="flex gap-4 mt-6 overflow-x-auto flex-nowrap max-w-full pb-2 px-2 snap-x snap-mandatory">
 					{bag.images?.map((img, i) => (
 						<img
 							key={i}
