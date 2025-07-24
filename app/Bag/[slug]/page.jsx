@@ -41,7 +41,7 @@ export default function BagDetailPage(props) {
 						className="w-[500px] rounded-xl mb-6 shadow-md transition duration-300"
 					/>
 				)}
-        <div className="flex gap-4 mt-6 overflow-x-auto flex-nowrap max-w-full pb-2 px-2 snap-x snap-mandatory">
+        <div className="flex gap-3 mt-6 overflow-x-auto flex-nowrap max-w-full pb-2 px-2 snap-x snap-mandatory custom-scrollbar">
 					{bag.images?.map((img, i) => (
 						<img
 							key={i}
