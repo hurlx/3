@@ -38,6 +38,7 @@ const products = [
     image: "/images/5/Brawn.jpg",
     hoverImage: "/images/5/Black.jpg",
     price: 23,
+    salePrice: 21,
     tag: "",
     id: "4",
     slug: 'Shell'
@@ -48,6 +49,7 @@ const products = [
     image: "/images/6/Rainbow.jpg",
       hoverImage: "/images/6/White.jpg",
     price: 20,
+    salePrice: 18,
     tag: "",
     id: "5",
     slug: 'Diamond'
@@ -58,6 +60,7 @@ const products = [
       image: "/images/7/Pink.jpg",
       hoverImage: "/images/7/Green.jpg",
     price: 18,
+    salePrice: 16,
     tag: "",
     id: "6",
     slug: 'Cat'
@@ -101,6 +104,16 @@ const products = [
     tag: "",
     id: "10",
     slug: 'Moon'
+  },
+  {
+    name: "حقيبة خطوط القماش",
+    shortDescription: "حقيبة القماش  , قماش مخطط ذات ملمس خشن , بتصميم راقي , مع لمسات ذهبية تعطي طابع",
+      image: "/images/13/blue.jpg",
+      hoverImage: "/images/13/yellow.jpg",
+    price: 18,
+    tag: "",
+    id: "11",
+    slug: 'Fabric'
   },
 ];
 
