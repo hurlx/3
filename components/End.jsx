@@ -46,9 +46,20 @@ export default function GlassMorphCard({ product }) {
 				</div>
 
 				<div className="flex items-center justify-between">
-					<span className="text-xl font-bold text-gray-800">
-						دولار {product.price}
-					</span>
+					{product.salePrice ? (
+  <div className="flex gap-2 items-center">
+    <span className="line-through text-gray-500 text-base">
+      دولار {product.price}
+    </span>
+    <span className="text-gray-800 text-xl font-bold">
+      دولار {product.salePrice}
+    </span>
+  </div>
+) : (
+  <span className="text-xl font-bold text-gray-800">
+    دولار {product.price}
+  </span>
+)}
 				</div>
 			</div>
 		</div>
