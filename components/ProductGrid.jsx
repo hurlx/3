@@ -115,6 +115,17 @@ const products = [
     id: "11",
     slug: 'Fabric'
   },
+  {
+    name: "حقيبة القلب",
+    shortDescription: "حقيبة يد أنيقة بتصميم عصري، مزودة بحزام مطرز وزينة قلبية لامعة.",
+      image: "/images/14/pink.jpg",
+      hoverImage: "/images/14/blue.jpg",
+    price: 17,
+    salePrice: 15,
+    tag: "",
+    id: "12",
+    slug: 'Heart'
+  },
 ];
 
 export default function ProductGrid() {
