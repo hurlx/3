@@ -38,7 +38,7 @@
         "/images/2/Phosphorescent.jpg",
         "/images/2/(1).jpg",
         "/images/2/(2).jpg",
-        "/images/3/(3).jpg",
+        "/images/2/(3).jpg",
       ],
       colors: [
         { name: "ابيض", hex: "#ffffff" },
@@ -76,6 +76,7 @@
       image: "/images/5/Black.jpg",
       hoverImage: "/images/5/Brawn.jpg",
       price: 23,
+      salePrice: 21,
       id: "4",
       slug: "Shell",
       images: [
@@ -95,6 +96,7 @@
       image: "/images/6/Rainbow.jpg",
       hoverImage: "/images/6/White.jpg",
       price: 20,
+      salePrice: 18,
       id: "5",
       slug: "Diamond",
       images: [
@@ -115,6 +117,7 @@
       image: "/images/7/Black.jpg",
       hoverImage: "/images/7/Pink.jpg",
       price: 18,
+      salePrice: 16,
       id: "6",
       slug: "Cat",
       images: [
@@ -218,6 +221,7 @@
         "/images/12/2.jpg",
         "/images/12/3.jpg",
         "/images/12/Black.jpg",
+        "/images/12/Blue.jpg",
         "/images/12/Brown.jpg",
         "/images/12/Kaki.jpg",
         "/images/12/wheat.jpg",
@@ -229,6 +233,34 @@
         { name: "ابيض", hex: "#ffffff" },
         { name: "بني", hex: "#964B00" },
         { name: "اسود", hex: "#000000" },
+      ],
+    },
+    {
+      name: "حقيبة خطوط القماش",
+      shortDescription: "حقيبة القماش  , قماش مخطط ذات ملمس خشن , بتصميم راقي , مع لمسات ذهبية تعطي طابع",
+      image: "/images/13/blue.jpg",
+      hoverImage: "/images/13/yellow.jpg",
+      price: 18,
+      id: "11",
+      slug: "Fabric",
+      images: [
+        "/images/13/1.jpg",
+        "/images/13/2.jpg",
+        "/images/13/3.jpg",
+        "/images/13/black.jpg",
+        "/images/13/blue.jpg",
+        "/images/13/brown.jpg",
+        "/images/13/gray.jpg",
+        "/images/13/red.jpg",
+        "/images/13/yellow.jpg"
+      ],
+      colors: [
+        { name: "ابيض احمر", hex: "#FF0000" },
+        { name: "ابيض ازرق", hex: "#0000FF" },
+        { name: "ابيض اسود", hex: "#000000" },
+        { name: "ابيض اصفر", hex: "#FFFF00" },
+        { name: "ابيض بني", hex: "#964B00" },
+        { name: "اسود رمادي", hex: "#C0C0C0" },
       ],
     },
   ];
