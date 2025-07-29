@@ -263,4 +263,30 @@
         { name: "اسود رمادي", hex: "#C0C0C0" },
       ],
     },
+    {
+      name: "حقيبة القلب",
+      shortDescription: "حقيبة يد أنيقة بتصميم عصري، مزودة بحزام مطرز وزينة قلبية لامعة.",
+      image: "/images/14/pink.jpg",
+      hoverImage: "/images/14/blue.jpg",
+      price: 17,
+      salePrice: 15,
+      id: "12",
+      slug: "Heart",
+      images: [
+        "/images/14/black.jpg",
+        "/images/14/blue.jpg",
+        "/images/14/red.jpg",
+        "/images/14/white.jpg",
+        "/images/14/pink.jpg",
+        "/images/14/green.jpg"
+      ],
+      colors: [
+        { name: "ابيض", hex: "#ffffff" },
+        { name: "ازرق ملكي", hex: "#0000FF" },
+        { name: "اسود", hex: "#000000" },
+        { name: "عنابي", hex: "#FF0000" },
+        { name: "فستقي", hex: "#008000" },
+        { name: "وردي", hex: "#FFC0CB" },
+      ],
+    },
   ];
