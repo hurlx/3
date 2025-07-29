@@ -22,9 +22,12 @@ export default function BagDetailPage(props) {
 	const phone = "963997206837";
 
 	const generateOrderMessage = () => {
-		const colorName = selectedColor?.name || bag.colors[0]?.name || "غير معروف";
-		return `مرحباً، أود طلب حقيبة "${bag.name}" باللون ${colorName}. السعر: $${bag.price}. هل هي متوفرة؟`;
-	};
+  const colorName = selectedColor?.name || bag.colors[0]?.name || "غير معروف";
+  const price = bag.salePrice ?? bag.price; // Use salePrice if it exists, otherwise price
+
+  return `مرحباً، أود طلب حقيبة "${bag.name}" باللون ${colorName}. السعر: $${price}. هل هي متوفرة؟`;
+};
+
 
 	const encodedMessage = encodeURIComponent(generateOrderMessage());
 	const whatsappURL = isMobile
@@ -56,9 +59,16 @@ export default function BagDetailPage(props) {
 				</div>
 <h1 className="text-3xl font-bold mb-4">{bag.name}</h1>
 				<p className="text-lg text-gray-700 mb-2">{bag.shortDescription}</p>
-				<p className="text-xl font-semibold">${bag.price}</p>
-				<p className="text-sm text-gray-500 mt-2">التصنيف: {bag.tag}</p>
-
+				<div className="text-xl font-semibold mb-2">
+  {bag.salePrice ? (
+    <div className="flex gap-2 items-center">
+      <span className="line-through text-gray-500">${bag.price}</span>
+      <span className="text-black font-bold">${bag.salePrice}</span>
+    </div>
+  ) : (
+    <span>${bag.price}</span>
+  )}
+</div>
 				<div className="mt-6 flex flex-col items-center">
 					<h3 className="text-lg font-semibold mb-2">اختر اللون المناسب لك</h3>
 					<div className="grid grid-cols-4 max-sm:grid-cols-3 gap-4">
