@@ -2,9 +2,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import LenisWrapper from "@/components/LenisWrapper";
-import Link from "next/link";
-import BackButton from "@/components/BackButton";
-import Image from "next/image";
+import ClientBackButtonWrapper from "@/components/ClientBackButtonWrapper";
+import NavBar from "@/components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,19 +35,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased select-none`}
-      >
-        <div className="relative top-0 left-0 z-[9999] pointer-events-auto w-fit mx-auto right-0">
-  <Link href="/">
-    <Image
-      src="/images/Hight Qulity.png"
-      alt="Background Logo"
-      className="max-w-[100px] mt-1 object-contain object-top cursor-pointer"
-    />
-  </Link>
-</div>
-
+      > 
+      <ClientBackButtonWrapper />
+      <NavBar />
         <main className="relative z-10">
-          <BackButton />
+          
           {children}
           <Footer />
         </main>
