@@ -29,7 +29,7 @@ export default function BagPage() {
                 src={product.image}
                 alt={product.name}
                 fill
-                className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                className="object-contain group-hover:scale-105 transition-transform duration-700 ease-out"
               />
             </div>
 
