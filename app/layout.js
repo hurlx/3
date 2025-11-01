@@ -36,10 +36,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased select-none`}
       > 
-      <ClientBackButtonWrapper />
+      
       <NavBar />
         <main className="relative z-10">
-          
+          <ClientBackButtonWrapper />
           {children}
           <Footer />
         </main>
