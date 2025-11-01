@@ -26,7 +26,7 @@ export default function BackButton() {
   return (
     <button
       onClick={handleBack}
-      className="fixed top-4 right-4 z-50 px-4 py-2 bg-white/60 text-gray-500 cursor-pointer duration-300 transition-colors rounded hover:bg-white/95"
+      className="fixed top-4 right-4 z-[9999] px-4 py-2 bg-white/60 text-gray-500 cursor-pointer duration-300 transition-colors rounded hover:bg-white/95"
     >
        رجوع
     </button>
