@@ -46,7 +46,7 @@ export default function BagDetailPage(props) {
             />
           </div>
 
-          <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-thin scrollbar-thumb-gray-300">
+          <div className="flex gap-3 overflow-x-auto py-3 scrollbar-thin scrollbar-thumb-gray-300">
             {bag.images?.map((img, i) => (
               <img
                 key={i}
