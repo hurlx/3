@@ -23,7 +23,7 @@ export default function Footer() {
             <a
               href="https://www.instagram.com/rizemybags?igsh=MW93ZmNpdXIybGlkbw=="
               target="_blank"
-              rel="Instagram"
+              rel="noopener noreferrer"
               aria-label="Instagram"
               className="text-gray-400 hover:text-white hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.6)] transition-all duration-300"
             >
@@ -32,7 +32,7 @@ export default function Footer() {
             <a
               href="https://wa.me/963997206837"
               target="_blank"
-              rel="WhatsApp"
+              rel="noopener noreferrer"
               aria-label="WhatsApp"
               className="text-gray-400 hover:text-white hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.6)] transition-all duration-300"
             >
@@ -41,9 +41,9 @@ export default function Footer() {
             <a
               href="https://www.facebook.com/share/14MTnhCys6H/"
               target="_blank"
-              rel="Facebook"
+              rel="noopener noreferrer"
               aria-label="Facebook"
-              className="text-gray-400 hover:text-gray-200 transition-transform duration-300 hover:scale-110"
+              className="text-gray-400 hover:text-white hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.6)] transition-all duration-300"
             >
               <FaFacebookF size={24} />
             </a>
