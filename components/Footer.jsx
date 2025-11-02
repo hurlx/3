@@ -20,7 +20,7 @@ export default function Footer() {
           <h3 className="font-semibold text-lg mb-2">تابعنا</h3>
           <div className="flex gap-6">
             <a
-              href="https://www.instagram.com/rizemybag/"
+              href="https://www.instagram.com/rizemybags?igsh=MW93ZmNpdXIybGlkbw=="
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -37,6 +37,13 @@ export default function Footer() {
             >
               <FaWhatsapp size={24} />
             </a>
+            <a 
+    href="https://www.facebook.com/share/14MTnhCys6H/" 
+    aria-label="Facebook" 
+    className="text-gray-400 hover:text-gray-200 transition-transform duration-300 hover:scale-110"
+  >
+    <FaFacebookF size={24} />
+  </a>
           </div>
         </div>
       </div>
