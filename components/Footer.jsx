@@ -1,6 +1,6 @@
 "use client";
 
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaFacebookF } from "react-icons/fa";
 
 export default function Footer() {
   return (
