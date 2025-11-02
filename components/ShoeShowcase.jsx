@@ -28,7 +28,7 @@ const ShoeShowcase = () => {
 
   return (
     <section className="w-full">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 [direction:rtl]">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 [direction:rtl]">
         {showcaseItems.map((item, index) => (
           <div key={index} className="relative h-[500px] overflow-hidden group">
             <div 
